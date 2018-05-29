@@ -1,7 +1,7 @@
 #ifndef _NLCLIENT_H
 #define _NLCLIENT_H
 #define log(fmt,arg...) \
-	printf("[nlclient] %s:%d  "fmt,__FUNCTION__,__LINE__,##arg)
+	printf("[nlclient] "fmt,##arg)
 
 #define NETLINK_TEST_MODULE         17      /* 抓包 netlink 协议 */
 
