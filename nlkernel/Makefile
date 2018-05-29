@@ -1,5 +1,6 @@
 obj-m := nlkernel.o
 
+
 PWD := $(shell pwd)
 KERNEL_DIR := "/usr/src/linux-headers-"$(shell uname -r)/
 
